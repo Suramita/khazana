@@ -32,15 +32,7 @@
 	</modules>
 
     <repositories>
-        <repository>
-            <id>ossrh</id>
-            <name>CentralRepository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-            <layout>default</layout>
-            <snapshots>
-            <enabled>true</enabled>
-            </snapshots>
-        </repository>
+       
         <repository>
             <id>central</id>
             <name>MavenCentral</name>
@@ -52,16 +44,7 @@
         </repository>
     </repositories>
 
-<distributionManagement>
-		<snapshotRepository>
-                        <id>ossrh</id>
-                        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository> 
-                 <repository>
-                        <id>ossrh</id>
-                        <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-                </repository> 
-        </distributionManagement> 
+ 
         <build>
 			<plugins>
 				<plugin>
