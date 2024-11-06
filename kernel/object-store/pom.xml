@@ -131,7 +131,7 @@
         <maven-shade-plugin.version>2.3</maven-shade-plugin.version>
 
         <aws.javasdk.version>1.11.368</aws.javasdk.version>
-        <joss.adapter.version>0.10.2</joss.adapter.version>
+        <joss.adapter.version>0.10.4</joss.adapter.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <powermock.beta.version>2.0.7</powermock.beta.version>
